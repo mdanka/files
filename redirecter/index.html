@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <meta property="og:url" content="https://miklosdanka.com/redirecter" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Průzkum osobní zkušenosti v ČR" />
+    <meta property="og:image" content="https://miklosdanka.com/redirecter/research.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="Průzkum osobní zkušenosti v ČR" />
+
+<script>
+
+var links = [
+              "https://goo.gl/forms/w1pOte5Ce4b83oJ53",
+              "https://goo.gl/forms/L3SJAJgaVx4ydL6h1",
+              "https://goo.gl/forms/L3SJAJgaVx4ydL6h1",
+              "https://goo.gl/forms/HuHJ0o8IuMNBy3fL2",
+];
+
+var openSite = function() {
+  var randIdx = Math.random() * links.length;
+  randIdx = parseInt(randIdx, 10);
+  var link = links[randIdx];
+  var win = window.open(link, '_self');
+  win.focus();
+};
+
+window.location.href="javascript:openSite()";
+
+</script>
+</head>
+<body></body>
+</html>
